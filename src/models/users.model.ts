@@ -8,6 +8,12 @@ class User {
   @prop({ type: String, required: true })
   public password: string;
 
+  @prop({ type: String, required: true })
+  public name: string;
+
+  @prop({ type: String, required: true })
+  public nickname: string;
+
   public createdAt?: Date;
 
   public updatedAt?: Date;
